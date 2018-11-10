@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+
+<body>
+
+<h2>Student Board</h2>
+<h4>please use following name:Kothari, Kotak</h4>
+<table >
+  	 <tr style="outline: thin solid">
+  <td class="head"><p>Last name:</p>
+
+  <input data-student-search="Name" type="text" name="lastname">
+  <input  type="button" onclick="callSearch()" value="Search"></td>
+
+  	</tr>
+
+    <tr>
+<td valign="Top" class="section" style="outline: thin solid">
+  <h5 >Students Found</h5>
+<div id="StudentNames">
+
+</div>
+
+</td>
+<td valign="Top" class="section" >
+  <h5 id="gradesfor" >Grades For</h5>
+  <div id="StudentGrades">
+
+  </div>
+</td>
+    </tr>
+
+
+</table>
+    <link rel="stylesheet" href="styleSheets/styles.css">
+    <script src="scripts/main.js" charset="utf-8"></script>
+    <script type="text/javascript" src="scripts/student.js" charset="utf-8"></script>
+    <script type="text/javascript" src="scripts/StudentHandler.js" charset="utf-8"></script>
+
+    <script src="scripts/studentViews.js" charset="utf-8"></script>
+</body>
+</html>
